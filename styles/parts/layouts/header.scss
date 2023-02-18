@@ -1,0 +1,19 @@
+.header {
+    flex: 0 0 auto;
+    padding: 24px 0;
+
+    &__wrap-nav {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        align-items: center;
+        grid-column-gap: 50px;
+    }
+
+    .main-container {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        align-items: center;
+        justify-content: space-between;
+        grid-column-gap: 20px;
+    }
+}

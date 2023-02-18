@@ -1,0 +1,28 @@
+.nav {
+
+    &__list {
+        display: grid;
+        grid-auto-columns: max-content;
+        grid-auto-flow: column;
+        grid-column-gap: 50px;
+    }
+
+    &__li {}
+
+    &__link {
+        font-family: $secondary-font;
+        font-weight: 500;
+        color: $color-2;
+        opacity: 0.3;
+        transition: color $transition-time, opacity $transition-time;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        &.router-link-active {
+            color: $color-3;
+            opacity: 1;
+        }
+    }
+}
