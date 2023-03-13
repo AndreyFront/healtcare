@@ -1,7 +1,7 @@
 <template>
     <div class="solution">
         <div class="main-container max-width">
-
+            
         </div>
     </div>
 </template>

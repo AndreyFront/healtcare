@@ -1,7 +1,7 @@
 <template>
     <div class="layout wrapper-page">
         <Header />
-        <Nuxt />
+        <NuxtPage />
         <Footer />
     </div>
 </template>

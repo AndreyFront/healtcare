@@ -15,14 +15,14 @@
 html,
 body {
     width: 100%;
+    color: $main-color;
+    background-color: $color-1;
 }
 
 .wrapper-page {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    color: $main-color;
-    background-color: $color-1;
 }
 
 @import './parts/pages';
